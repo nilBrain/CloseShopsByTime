@@ -28,8 +28,8 @@
 
 	<l10n>
         <text name="shop_shopIsClosed">
-            <en>The Shop is currently closed...</en>
-            <de>Der Shop ist momentan geschlossen...</de>
+            <en>The Shop is currently closed, the Salesman is on break...</en>
+            <de>Der Shop ist momentan geschlossen, der Vertreter hat gerade Pause...</de>
         </text>
 	</l10n>
 
