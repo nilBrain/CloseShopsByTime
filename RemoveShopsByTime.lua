@@ -12,11 +12,11 @@ RemoveShopsByTime.blockedShops = {
 };
 
 function RemoveShopsByTime:loadMap(mapFilename)
-	self.isServer = g_server ~= nil;
+	self.isClient = g_client ~= nil;
 end;
 
 function RemoveShopsByTime:update(dt)
-	if self.isServer then
+	if self.isClient then
 		local hr = g_currentMission.environment.currentHour;
 		if hr == 12 or (hr >= g_currentMission.environment.nightStart or hr < g_currentMission.environment.nightEnd) then
 			for _, shop in pairs(RemoveShopsByTime.blockedShops) do
