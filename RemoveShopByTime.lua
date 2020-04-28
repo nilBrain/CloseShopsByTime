@@ -8,7 +8,8 @@
 RemoveShopByTime={}
 
 function RemoveShopByTime:update(dt)
-	if g_currentMission.environment.currentHour == 12 or g_currentMission.environment.isSunOn then
+	local hr = g_currentMission.environment.currentHour;
+	if hr == 12 or (hr >= g_currentMission.environment.nightStart or hr < g_currentMission.environment.nightEnd) then
 		if g_gui.currentGui == g_gui.guis.ShopMenu then
 			g_gui:showGui("");
 			g_gui:showInfoDialog({visible = true, text = g_i18n:getText("shop_shopIsClosed"), dialogType = DialogElement.TYPE_INFO, isCloseAllowed = true});
