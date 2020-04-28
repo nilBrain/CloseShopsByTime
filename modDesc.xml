@@ -5,16 +5,16 @@
     <version>1.0.0.0</version>
     
 	<title>
-        <en>Shop with opening hours</en>
-        <de>Shop mit Öffnungszeiten</de>
+        <en>Shops with opening hours</en>
+        <de>Shops mit Öffnungszeiten</de>
     </title>
     
 	<description>
         <en>
-			<![CDATA[This Mod adds opening Hours to the dealer that you can not visit him all Day.]]>
+			<![CDATA[This Mod adds opening Hours to the Dealers that you can not visit him all Day.]]>
 		</en>
 		<de>
-			<![CDATA[Dieser Mod fügt dem Händler Öffnungszeiten hinzu, das man ihn nicht den ganzen Tag besuchen kann.]]>
+			<![CDATA[Dieser Mod fügt den Händlern Öffnungszeiten hinzu, das man sie nicht den ganzen Tag besuchen kann.]]>
 		</de>
     </description>
     
@@ -22,14 +22,14 @@
     <multiplayer supported="true"/>
 	
 	<extraSourceFiles>	
-		<sourceFile filename="RemoveShopByTime.lua" /> 
+		<sourceFile filename="RemoveShopsByTime.lua" /> 
 	</extraSourceFiles>
 
 
 	<l10n>
         <text name="shop_shopIsClosed">
-            <en>The Shop is currently closed, the Salesman is on break...</en>
-            <de>Der Shop ist momentan geschlossen, der Vertreter hat gerade Pause...</de>
+            <en>The %s is currently closed, the Salesman is on break...</en>
+            <de>Der %s ist momentan geschlossen, der Vertreter hat gerade Pause...</de>
         </text>
 	</l10n>
 
