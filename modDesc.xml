@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="44">
-	<author>nilBrain</author>
-	
+<modDesc descVersion="67">
+	<author>Vertex Dezign</author>
+	<contributors>Icon: SorJoki80 Script: nilBrain</contributors>
     <version>1.0.0.0</version>
     
 	<title>
@@ -22,7 +22,7 @@
     <multiplayer supported="true"/>
 	
 	<extraSourceFiles>	
-		<sourceFile filename="RemoveShopsByTime.lua" /> 
+		<sourceFile filename="closeShopsByTime.lua" /> 
 	</extraSourceFiles>
 
 
